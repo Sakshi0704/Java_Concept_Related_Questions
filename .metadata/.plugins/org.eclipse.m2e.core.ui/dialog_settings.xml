@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Annotation_Problem\src\main\java\com\masai\A.java"/>
+			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\sprint3day1problem1\src\main\resources\applicationContext.xml"/>
+			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Associationmapping\src\main\java\com\entities\Demo.java"/>
+			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\MismatchsApp1"/>
+			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Maven_ORM_2\src\main\java\com\utility\EMUtil.java"/>
+			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Evaluation_Problem2"/>
+			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Maven_ORM_2\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.masai"/>
+			<item value="com.sakshi"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Sprint3_Evalution_Problem3"/>
+			<item value="Sprint3_Evaluation_Problem1"/>
+			<item value="Annotation_Problem"/>
+			<item value="Spring_Initializing_Disposing_Lazy_Eager_In_BeanTag"/>
+			<item value="Sprint2_Evalutaion_Problem2"/>
+			<item value="Sprint2_"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\sprint3day1problem1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

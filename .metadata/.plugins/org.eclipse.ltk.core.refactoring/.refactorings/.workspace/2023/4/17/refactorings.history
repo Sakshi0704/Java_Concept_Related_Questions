@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 15 resources" deleteContents="false" description="Delete 15 resources" element1="/Annotation_Problem" element10="/Sprint2_Evaluation_Problem1" element11="/Sprint2_Evaluation_Problem3" element12="/Sprint2_Evalutaion_Problem2" element13="/Sprint3_Evaluation_Problem1" element14="/Sprint3_Evalution_Problem3" element15="/sprint3day1problem1" element2="/Associationmapping" element3="/Evaluation_Problem1" element4="/Evaluation_Problem2" element5="/Evaluation_Problem3" element6="/Maven_ORM_2" element7="/MismatchsApp1" element8="/Pattern_Question" element9="/Spring_Initializing_Disposing_Lazy_Eager_In_BeanTag" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="15" stamp="1682272990344"/>
+</session>
