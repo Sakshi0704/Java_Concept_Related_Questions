@@ -1,11 +1,18 @@
 package com.sakshi.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Student {
 
 	private Integer roll;
 	private String name;
+	
+	
 	private String address;
+	
+	@JsonProperty("studentMarks")
 	private Integer marks;
+	
 	public Student(Integer roll, String name, String address, Integer marks) {
 		super();
 		this.roll = roll;
