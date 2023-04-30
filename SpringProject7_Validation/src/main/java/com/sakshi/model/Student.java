@@ -1,11 +1,26 @@
 package com.sakshi.model;
 
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+
 public class Student {
 
-
+	@Min(value = 100 , message = "{roll.invalid}") // @Min(value = 100,message = "Roll number is invalid")
 	private Integer roll;
+	
+	@NotNull(message = "Name is Mandatory")
+	@Size(min = 3,max = 10, message = "Name length should be 3 to 10") // @Size(min=3,max=10,message="Name length should be 3 to 10)
 	private String name;
+	
+	@NotNull(message = "Address is Mandatory")
+	@NotBlank(message = "Address not be blank")
+	@NotEmpty(message = "Address should not be empty")
 	private String address;
+	
+
 	private Integer marks;
 	
 	

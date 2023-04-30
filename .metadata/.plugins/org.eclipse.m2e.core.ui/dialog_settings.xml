@@ -81,6 +81,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\saksh\OneDrive\Java_Concept_Related_Questions"/>
 			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions"/>
 			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Unit6_Sprint3_PreEvalution_Problem3"/>
 			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Unit6_Sprint3_PreEvaluation_Problem1"/>
@@ -100,5 +101,11 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="66"/>
 	</section>
 </section>

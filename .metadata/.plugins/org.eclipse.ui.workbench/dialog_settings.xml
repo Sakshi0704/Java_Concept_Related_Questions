@@ -10,7 +10,6 @@
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.m2e.core.wizards.Maven2ImportWizard"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.m2e"/>
-			<item value="org.eclipse.jst.ws.consumption.ui.wsimport.category"/>
 		</list>
 	</section>
 </section>
