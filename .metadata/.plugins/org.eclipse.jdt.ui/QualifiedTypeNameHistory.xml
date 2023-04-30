@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.persistence.Inheritance"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="com.utility.EMUtil"/>
     <fullyQualifiedTypeName name="javax.persistence.InheritanceType"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="com.sakshi.exception.InvalidNumberException"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="org.springframework.web.context.request.WebRequest"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.NoHandlerFoundException"/>
 </qualifiedTypeNameHistroy>
