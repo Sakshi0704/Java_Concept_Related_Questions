@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 
 import org.springframework.http.ResponseEntity;
-
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,11 +23,20 @@ import com.sakshi.model.Student;
 
 import com.sakshi.service.StudentService;
 
-@RestController
+@Controller
 public class StudentController {
 
 	@Autowired
 	private StudentService studentService;
+	
+	
+//	@GetMapping("/Hii")
+//	public String printName(){
+//		
+//		System.out.println("byye---");
+//		return "welcome";
+//	}
+	
 	
 	@PostMapping("/students")
 	public ResponseEntity<Student> registerStudentHandler(@RequestBody Student student){
