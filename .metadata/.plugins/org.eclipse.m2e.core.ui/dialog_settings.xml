@@ -76,11 +76,22 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Evaluation-4"/>
+			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Student_crud_app"/>
+			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\vaccination-centre"/>
 			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions"/>
 			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\SpringProject10_ORM_Optimization"/>
 			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\SprintProject8_JPA"/>
@@ -93,7 +104,6 @@
 			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Unit6_Sprint1_PreEvaluation_Problem3"/>
 			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Unit6_Sprint1_PreEvaluation_Problem2"/>
 			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Unit6_Sprint1_PreEvaluation_Problem1"/>
-			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\sprint3day1problem1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
