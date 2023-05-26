@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Student_crud_app\pom.xml"/>
 			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Annotation_Problem\src\main\java\com\masai\A.java"/>
 			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\sprint3day1problem1\src\main\resources\applicationContext.xml"/>
 			<item value="C:\Users\Sai\OneDrive\Java_Concept_Related_Questions\Associationmapping\src\main\java\com\entities\Demo.java"/>
@@ -20,6 +21,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -56,6 +58,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Grocery_Store"/>
 			<item value="Sprint3_Evalution_Problem3"/>
 			<item value="Sprint3_Evaluation_Problem1"/>
 			<item value="Annotation_Problem"/>
