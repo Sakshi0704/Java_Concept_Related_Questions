@@ -1,0 +1,149 @@
+package com.masai.Service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.masai.Exception.ProductException;
+import com.masai.Exception.UserException;
+import com.masai.Repository.CategoryRepository;
+import com.masai.Repository.ProductRepository;
+import com.masai.model.Category;
+import com.masai.model.Product;
+
+@Service
+public class ProductServiceImpl implements ProductService{
+
+	@Autowired
+	private ProductRepository proRepo;
+	
+	@Autowired
+	private CategoryRepository catRepo;
+	
+	
+	
+	@Override
+	public List<Product> viewAllProduct() throws ProductException {
+		List<Product> productList = proRepo.findAll();
+		if(productList.isEmpty()) {
+			throw new ProductException("No product in the List");
+		}
+		return productList;
+	}
+	
+	
+	
+	
+
+	@Override
+	public Product addProduct(Product product) throws ProductException {
+		
+		
+		
+		Optional<Product> prod = proRepo.findById(product.getProductId());
+		
+		if(prod.isPresent()) {
+			throw new ProductException(" Product is Already there");
+		}
+		
+		 
+		return proRepo.save(product);
+	}
+	
+	
+	
+	
+
+	@Override
+	public Product updateProduct(Product product) throws ProductException {	
+		
+		Optional<Product> prod = proRepo.findById(product.getProductId());
+		if(prod.isPresent()==false) {
+			throw new ProductException("No Product is present in the List");
+		}
+		
+		Product p = prod.get();
+		p.setPrice(product.getPrice());
+		p.setProductName(product.getProductName());
+		Category existingCategory = p.getCategory();
+		Category newCategory = product.getCategory();
+		if (newCategory != null) {
+		existingCategory.setCatName(newCategory.getCatName());
+		existingCategory.setProduct(newCategory.getProduct());
+		}
+
+		p.setDescription(product.getDescription());
+		
+		p.setQuantity(product.getQuantity());
+		
+		return proRepo.save(p);
+		
+	}
+	
+	
+
+	
+	
+
+	@Override
+	public Product getProductById(Integer id) throws ProductException {
+		
+		Optional<Product> prod = proRepo.findById(id);
+		if(prod.isPresent()==false) {
+			throw new ProductException("No Product is present in the List");
+		}
+		return prod.get();
+	}
+	
+	
+	
+	
+	@Override
+	public Product deleteProductById(Integer id) throws ProductException, UserException {
+	  
+	    Optional<Product> optionalProduct = proRepo.findById(id);
+	    if (!optionalProduct.isPresent()) {
+	        throw new ProductException("Product not found.");
+	    }
+	    
+	    Product product = optionalProduct.get();
+	    proRepo.deleteById(id);
+	    return product;
+	}
+
+
+
+	
+	
+	@Override
+	public Category addCategory(Category category) throws ProductException {
+		
+		Optional<Category> cat = catRepo.findById(category.getCatId());
+		
+		if(cat.isPresent()) {
+			throw new ProductException("category is Already present");
+		}
+		 
+		return catRepo.save(category);
+	}
+	
+	
+	
+	
+	
+	@Override
+	public Category deleteCategory(Integer catId) throws ProductException {
+		
+		Optional<Category> cat = catRepo.findById(catId);
+		
+		if(cat.isPresent()==false) {
+			throw new ProductException("category is not present");
+		}
+		catRepo.deleteById(catId);
+		return cat.get();
+	}
+
+	
+}
