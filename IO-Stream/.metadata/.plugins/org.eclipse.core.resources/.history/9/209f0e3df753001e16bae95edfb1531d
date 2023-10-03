@@ -1,0 +1,17 @@
+package com.filereader;
+
+public class Main {
+public static void main(String[] args) {
+try {
+File file = new File("a1.txt");
+if (file.createNewFile()) {
+System.out.println("New File is created!");
+} else {
+System.out.println("File already exists.");
+}
+} catch (IOException e) {
+e.printStackTrace();
+Day 1: Java IO-streams (Byte Oriented, Character Oriented classes) and File class 3
+}
+}
+}
